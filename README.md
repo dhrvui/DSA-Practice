@@ -1,19 +1,2 @@
 # DSA-Practice
 Solutions to DSA problems
-
-Reverse Array 
-arr = list(map(int,input("Enter array elements = ").split()))
-
-start = 0
-end = len(arr) - 1
-
-while start < end:
-    temp = arr[start]
-    arr[start] = arr[end]
-    arr[end] = temp
-
-    start = start + 1
-    end = end - 1
-
-print("Reversed array is = ", arr)
-
